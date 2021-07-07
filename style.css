@@ -380,6 +380,12 @@ nav a:hover::before {
 
 /*footer*/
 
+@media (min-width: 400px) {
+    .footer {
+        width: 100%;
+        margin-bottom: 30px;
+    } 
+}
 .footer { 
     background: #111;
     color: var(--clr-accent);
@@ -405,7 +411,7 @@ nav a:hover::before {
     list-style: none; 
     display: flex;
     justify-content: center;
-    margin: 2em 0;
+    margin: 2em 0 0;
     padding: 0;
 }   
 
